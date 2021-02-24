@@ -56,13 +56,13 @@ export function getTimeframe(timeWindow) {
 export function getPoolLink(token0Address, token1Address = null, remove = false) {
   if (!token1Address) {
     return (
-      `https://bscswap.com/#/` +
+      `https://bollo.me/#/` +
       (remove ? `remove` : `add`) +
       `/${token0Address === '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c' ? 'BNB' : token0Address}/${'BNB'}`
     )
   } else {
     return (
-      `https://bscswap.com/#/` +
+      `https://bollo.me/#/` +
       (remove ? `remove` : `add`) +
       `/${token0Address === '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c' ? 'BNB' : token0Address}/${
         token1Address === '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c' ? 'BNB' : token1Address
@@ -73,9 +73,9 @@ export function getPoolLink(token0Address, token1Address = null, remove = false)
 
 export function getSwapLink(token0Address, token1Address = null) {
   if (!token1Address) {
-    return `https://bscswap.com/#/swap?inputCurrency=${token0Address}`
+    return `https://bollo.me/#/swap?inputCurrency=${token0Address}`
   } else {
-    return `https://bscswap.com/#/swap?inputCurrency=${
+    return `https://bollo.me/#/swap?inputCurrency=${
       token0Address === '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c' ? 'BNB' : token0Address
     }&outputCurrency=${token1Address === '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c' ? 'BNB' : token1Address}`
   }

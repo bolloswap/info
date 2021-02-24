@@ -58,7 +58,7 @@ export default function TokenLogo({ address, header = false, size = '24px', ...r
     )
   }
 
-  const path = `https://tokens.bscswap.com/images/${isAddress(
+  const path = `https://tokens.bollo.me/images/${isAddress(
     address
   )}.png`
 

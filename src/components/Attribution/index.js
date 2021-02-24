@@ -6,8 +6,8 @@ const Attribution = () => (
       Github
     </a>{' '}
     |{' '}
-    <a href="https://bscswap.com" rel="noopener noreferrer" target="_blank">
-      BSCswap
+    <a href="https://bollo.me" rel="noopener noreferrer" target="_blank">
+      Bolloswap
     </a>{' '}
     |{' '}
     <a href="https://gifer.com/en/1Atv" rel="noopener noreferrer" target="_blank">
