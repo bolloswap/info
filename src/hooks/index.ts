@@ -8,7 +8,7 @@ import copy from 'copy-to-clipboard'
 export function useColor(tokenAddress, token) {
   const [color, setColor] = useState('#2172E5')
   if (tokenAddress) {
-    const path = `https://tokens.bscswap.com/images/${isAddress(
+    const path = `https://tokens.bollo.me/images/${isAddress(
       tokenAddress
     )}.png`
     if (path) {
